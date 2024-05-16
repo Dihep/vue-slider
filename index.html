@@ -17,11 +17,14 @@
         <div class="container">
             <div class="slider-wrapper" tabindex="0">
 
-                <div v-for="(image, title, text) in slides" class="item">
-                    <img src="{{image}}" alt="{{title}}" />
+                <div class="item">
+                    <img v-for="pic in slides" src="{{ image }}" alt="{{ pic }}" />
                     <div class="text">
-                        <h3>{{title}}</h3>
-                        <p>{{text}}</p>
+                        <h3>Spiderman</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nam impedit facilis amet odit repudiandae soluta
+                            dolorum distinctio. Hic quaerat autem unde temporibus quis? Ipsum eius ullam excepturi perferendis cupiditate!
+                        </p>
                     </div>
                 </div>
 
